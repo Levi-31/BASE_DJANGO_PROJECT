@@ -1,0 +1,27 @@
+# Django
+django>=4.2,<5.0
+
+# Django REST Framework
+djangorestframework>=3.14,<4.0
+django-filter>=23.0
+drf-spectacular>=0.27.0
+
+# Database — MySQL
+mysqlclient>=2.2
+
+# Cache / Message Broker — Redis
+django-redis>=5.4
+redis>=5.0
+
+# Environment & Config
+python-decouple>=3.8
+
+# CORS
+django-cors-headers>=4.3
+
+# Production Server
+gunicorn>=21.2
+
+# Development helpers
+django-extensions>=3.2
+ipython>=8.0
